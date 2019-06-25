@@ -14,18 +14,27 @@ namespace Cocktail_List
         #region Properties
 
 
-        public string Picturelink { get; set; }
+     
 
         public string Name { get; set; }
 
-        public Array IngredientList { get; set; }
+        public List<Ingredient> IngredientList { get; set; }
 
         public DateTime InputDate { get; private set; }
 
         public int Rating { get; set; }
         #endregion
 
+        public Cocktail()
+        {
+            InputDate = DateTime.Now;
+        }
+
     }
+
+   
+
+
 
     
 }

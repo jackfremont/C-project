@@ -8,6 +8,8 @@ namespace Cocktail_List
     {
         public string IngredientName { get; set; }
 
-        public decimal amount { get; set; }
+        public string amount { get; set; }
+
+
     }
 }
